@@ -2,7 +2,12 @@ eureka:
   client:
     service-url:
       defaultZone: http://127.0.0.1:8788/eureka/
-
+spring:
+  rabbitmq:
+    host: 192.168.204.132
+    port: 5672
+    username: guest
+    password: guest
 #设置所有暴露的管理的映射地址
 management:
   endpoints:
