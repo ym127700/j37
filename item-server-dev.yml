@@ -14,4 +14,4 @@ management:
     web:
       exposure:
         include: "*"        
-foo: hello 02
+foo: hello 03
