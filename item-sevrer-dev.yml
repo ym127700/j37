@@ -1,0 +1,12 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8788/eureka/
+
+#设置所有暴露的管理的映射地址
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+foo: hello 01
